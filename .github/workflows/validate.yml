@@ -20,4 +20,11 @@ jobs:
     - name: Install dependencies
       run: pnpm install
     - name: Run validate
-      run: pnpm run validate
+      run: pnpm run 
+    - name: Build resumes
+      run: pnpm run html
+    - name: Archive production artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: resumes
+        path: output
