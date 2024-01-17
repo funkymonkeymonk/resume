@@ -1,0 +1,25 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "validate": "resumed validate",
+    "html:engineering": "mkdir -p output/engineering && resumed -o ./output/engineering/will-weaver-resume.html --theme jsonresume-theme-engineering",
+    "html:stackoverflow": "mkdir -p output/stackoverflow && resumed -o ./output/stackoverflow/will-weaver-resume.html --theme jsonresume-theme-stackoverflow",
+    "html:latte": "mkdir -p output/latte && resumed -o ./output/latte/will-weaver-resume.html --theme jsonresume-theme-latte",
+    "html:contempo": "mkdir -p output/contempo && resumed -o ./output/contempo/will-weaver-resume.html --theme jsonresume-theme-contempo",
+    "html": "pnpm /html:.*/",
+    "clean": "rm -rf output"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsonresume-theme-contempo": "^0.0.3",
+    "jsonresume-theme-engineering": "^0.1.7",
+    "jsonresume-theme-latte": "^1.0.2",
+    "jsonresume-theme-stackoverflow": "^2.0.2",
+    "resumed": "^3.0.1"
+  }
+}
