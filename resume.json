@@ -1,0 +1,267 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+    "basics": {
+        "name": "Will Weaver",
+        "label": "Engineering Leader | Obsessed with Efficiency and Developer Experience | Board Game Sommelier",
+        "email": "me@willweaver.dev",
+        "url": "https://willweaver.dev",
+        "summary": "Experienced cross-functional manager with a demonstrated history of working with companies of various sizes. Skilled at building resilient applications and cultures by leveraging agile, lean, and devops practices. Passionate about creating mentoring groups to encourage continual growth and guidance. Avid board game player.",
+        "location": {
+            "city": "New York",
+            "region": "NY",
+            "countryCode": "US"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "williamdweaver",
+                "url": "https://www.linkedin.com/in/williamdweaver/"
+            },
+            {
+                "network": "Twitter",
+                "username": "buildingbananas",
+                "url": "https://twitter.com/buildingbananas"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "Attentive",
+            "position": "Engineering Manager",
+            "startDate": "2022-10-31",
+            "highlights": [
+                "Founded a cross-functional team of 6 engineers.",
+                "Streamlined delivery pipelines by creating standardized delivery mechanisms.",
+                "Delivered a new Tilt based local development process which was used by 80% of all actively developed services within 3 months",
+                "Piloted DX metric acquisition via Sleuth and developed supplemental metrics to support fine grained project tracking.",
+                "Managed code freezes and thaws during holiday rush to enable production systems to stay stable while also protecting the most revenue critical days of the year."
+            ],
+            "summary": "",
+            "url": "https://www.linkedin.com/company/attentivehq/",
+            "location": "New York, United States"
+        },
+        {
+            "name": "Verica",
+            "position": "Engineering Manager",
+            "startDate": "2022-02-28",
+            "endDate": "2022-08-31",
+            "highlights": [
+                "Managed the customer platform of five software engineers.",
+                "Enable independence for verification teams on the customer platform by creating self service tools for CI/CD of new verifications as well as libraries for generating customer reports.",
+                "Reduced the effort for deployment such that it was no longer required to be a Verica guided process and could be entirely customer managed."
+            ],
+            "url": "https://www.linkedin.com/company/vericaio/"
+        },
+        {
+            "name": "Hyperscience",
+            "position": "Engineering Manager",
+            "startDate": "2021-04-30",
+            "endDate": "2022-01-31",
+            "highlights": [
+                "Developed a technical direction, business strategy, and organizational structure for the Hyperscience platform teams in partnership with directors and VP of Engineering.",
+                "Founded both an agile leadership peer group and a management peer group resulting in formalized best practices as well as mentorship for newer leaders/managers as well as mentorship opportunities for more experienced leaders/managers.",
+                "Coached engineering managers as well as design managers on management practices as well as product lifecycle challenges."
+            ],
+            "url": "https://www.linkedin.com/company/hyperscience/",
+            "location": "Greater New York City Area"
+        },
+        {
+            "name": "Dataminr",
+            "position": "Engineering Manager",
+            "startDate": "2020-02-28",
+            "endDate": "2021-03-31",
+            "highlights": [
+                "Managed the delivery and display of customer notifications by web application, email, push notification, SMS, and Slack.",
+                "Led two 5 -10 person mixed teams of frontend/full-stack, and backend engineers",
+                "Navigated refactoring parts of our monolithic web application into smaller modules enabling graceful degradation when ",
+                "Migrated the polling-based messaging architecture to a lambda backed, push-based messaging architecture reducing the time to high importance messages during peak usage from ~10 minutes to ~20s.",
+                "Reduced the lead time of features by 50% and increase the amount of experimentation done by the teams by redesigning team QA practices and introducing additional automated testing.",
+                "Founded an agile leadership peer mentoring group to provide peer-to-peer mentoring, communication, and guidance on modern agile philosophy and practices."
+            ],
+            "url": "https://www.linkedin.com/company/dataminr/",
+            "location": "Greater New York City Area"
+        },
+        {
+            "name": "Meetup",
+            "position": "Engineering Manager",
+            "startDate": "2017-11-30",
+            "endDate": "2020-02-28",
+            "highlights": [
+                "Founded and then grew a cross-functional team from roughly 5 to ten software engineers and qa members both recruited both internally and externally",
+                "Led the design to stabilize and refactor legacy notifications system within Meetup both simplifying the underlying software design as well as reducing the number of messages sent by nearly 70% without impacting any show up based metrics.",
+                "Extracted core domain data and create a GraphQL API that allowed external teams to interact with this data via the API instead of directly.  ",
+                "Established goals, objectives, key results, and budgets b) working with stakeholdlers and executives.",
+                "I performed technical evaluations as well as contract negotiations for existing and new notifications vendors.  ",
+                "Facilitated high-value meetings and agile rituals for teams throughout the organization."
+            ],
+            "url": "https://www.linkedin.com/company/meetup/",
+            "location": "Greater New York City Area"
+        },
+        {
+            "name": "Hackerati",
+            "position": "Lead Engineering Consultant",
+            "startDate": "2016-01-31",
+            "endDate": "2017-10-31",
+            "highlights": [
+                "Designed both a technical and cultural plan for adopting agile software development and DevOps philosophies for both internal and client teams",
+                "Evangelized the practices of continuous integration, delivery, and deployment as well as the techniques for sustainable architecture",
+                "Unified production, test, and dev environments by introducing configuration management, virtualization, and containerization",
+                "Led initiatives and training sessions for both AWS and GCE platforms and assisted teams transitioning from bare metal to the cloud.",
+                "Taught the practices of writin and maintain alerting systems to enable a \"you build it you run it\" culture"
+            ],
+            "url": "https://www.linkedin.com/company/the-hackerati/",
+            "location": "Greater New York City Area"
+        },
+        {
+            "name": "Meetup",
+            "position": "DevOps Engineering Consultant Via Hackerati",
+            "startDate": "2016-01-31",
+            "endDate": "2016-12-31",
+            "highlights": [
+                "Created a CI/CD pipeline using Travis-Ci and Google Container Engine",
+                "Led a cultural shift within the company by pairing with developers on multiple different teams to teach TDD, and pair programming, as well as sharing knowledge on continuous integration and delivery enabling teams to increase their delivery cadence from weekly to daily.",
+                "Designed and trained members of their QA practice to change from manual testing to automated behavioral acceptance testing using Robot Framework."
+            ],
+            "url": "https://www.linkedin.com/company/meetup/",
+            "location": "Greater New York City Area"
+        },
+        {
+            "name": "Intent Media Inc.",
+            "position": "Devops Engineer",
+            "startDate": "2014-10-31",
+            "endDate": "2015-10-31",
+            "highlights": [
+                "Migrated much of our AWS infrastructure to Terraform from web managed or Chef scripts.",
+                "Designed and implemented continuous delivery and deployment pipelines in TeamCity.",
+                "Created reproducible environments for development, testing, and production using Vagrant, Ansible, and Docker."
+            ],
+            "url": "https://www.linkedin.com/company/intent-/"
+        },
+        {
+            "name": "Fidessa",
+            "position": "Operations Analyst",
+            "startDate": "2010-01-31",
+            "endDate": "2014-09-30",
+            "highlights": [
+                "Maintained the operation and deployment of hosted customer installations for both US and Canadian clients.",
+                "Designed support tools such as the monitoring and alerting application, and our environment manager.",
+                "Acted as a liaison with offices in New York, Toronto, London, Hong Kong, Tokyo, and San Francisco to improve global operations.",
+                "Provided tier two support for customer software and hardware issues, then oversaw the correction of those issues."
+            ],
+            "url": "https://www.linkedin.com/company/fidessa/",
+            "location": "New York, NY and Toronto, ON, CA"
+        },
+        {
+            "name": "Rowan University",
+            "position": "Undergraduate Research Assistant - SPPRL Lab",
+            "startDate": "2008-10-31",
+            "endDate": "2009-06-30",
+            "highlights": [],
+            "summary": "Redesigned legacy code and rewrote for optimization using object oriented design principals. I also assisted graduate students in the research and implementation of algorithms for analysis of EEG signals.",
+            "url": "https://www.linkedin.com/school/rowan-university/"
+        },
+        {
+            "name": "Radiotechniques Engineering, LLC",
+            "position": "Engineering Intern",
+            "startDate": "2006-03-31",
+            "endDate": "2009-06-30",
+            "highlights": [],
+            "summary": "I assisted senior engineers with antenna pattern design and layout in miniNEC along with maintaining the LAMP infrastructure.",
+            "url": "https://www.linkedin.com/company/radiotechniques-engineering-llc/"
+        }
+    ],
+    "volunteer": [],
+    "education": [
+        {
+            "institution": "Rowan University",
+            "area": "Electrical and Computer Engineering",
+            "studyType": "Bachelor's Degree",
+            "startDate": "2003-12-31",
+            "endDate": "2011-12-31",
+            "score": "",
+            "courses": []
+        }
+    ],
+    "awards": [],
+    "certificates": [],
+    "publications": [
+        {
+            "name": "Alexa, Google Assistant, And A Write Once Framework",
+            "publisher": "Serverless Conf NYC",
+            "releaseDate": "2017-10-01",
+            "summary": ""
+        },
+        {
+            "name": "Rethinking System Information",
+            "publisher": "CDNYC",
+            "releaseDate": "2015-08-31",
+            "summary": ""
+        },
+        {
+            "name": "Application Deployment Using Docker Containers",
+            "publisher": "Northeast GNU/Linux Fest",
+            "releaseDate": "2014-04-30",
+            "summary": "",
+            "url": "http://northeastlinuxfest.org/"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Management/Leadership",
+            "level": "",
+            "keywords": [
+                "Agile Coaching",
+                "Coaching",
+                "Lean",
+                "Organizational Design",
+                "Agile Methodologies",
+                "Continuous Deployment",
+                "DevOps",
+                "Distributed Systems",
+                "AWS Lambda",
+                "Agile Coaching",
+                "Technical Direction"
+            ]
+        },
+        {
+            "name": "Platform",
+            "level": "",
+            "keywords": [
+                "Containerization/Docker",
+                "Amazon Web Services (AWS)",
+                "System Administration",
+                "Kubernetes",
+                "Continuous Integration and Continuous Delivery (CI/CD)",
+                "Code Refactoring",
+                "Microservices",
+                "Consulting",
+                "Developer Experience"
+            ]
+        },
+        {
+            "name": "Frameworks/Languages",
+            "level": "",
+            "keywords": [
+                "GraphQL",
+                "Go",
+                "Javascript",
+                "Java",
+                "React"
+            ]
+        },
+        {
+            "name": "TBD",
+            "level": "",
+            "keywords": [
+                "Test Driven Development"
+            ]
+        }
+    ],
+    "interests": [],
+    "references": [],
+    "projects": [],
+    "meta": {
+        "version": "v1.0.0",
+        "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+    }
+}
