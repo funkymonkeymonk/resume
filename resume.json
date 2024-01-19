@@ -30,8 +30,8 @@
             "position": "Engineering Manager",
             "startDate": "2022-10-31",
             "highlights": [
-                "Founded a cross-functional team of 6 engineers.",
-                "Streamlined delivery pipelines by creating standardized delivery mechanisms.",
+                "Founded a cross-functional team of 6 engineers working in Java, Javascript.",
+                "Streamlined delivery pipelines by creating standardized delivery mechanisms for CircleCI pipelines.",
                 "Delivered a new Tilt based local development process which was used by 80% of all actively developed services within 3 months",
                 "Piloted DX metric acquisition via Sleuth and developed supplemental metrics to support fine grained project tracking.",
                 "Managed code freezes and thaws during holiday rush to enable production systems to stay stable while also protecting the most revenue critical days of the year."
@@ -46,9 +46,10 @@
             "startDate": "2022-02-28",
             "endDate": "2022-08-31",
             "highlights": [
-                "Managed the customer platform of five software engineers.",
+                "Managed the customer platform of five software engineers working in Go and Javascript.",
                 "Enable independence for verification teams on the customer platform by creating self service tools for CI/CD of new verifications as well as libraries for generating customer reports.",
-                "Reduced the effort for deployment such that it was no longer required to be a Verica guided process and could be entirely customer managed."
+                "Reduced the effort for deployment such that it was no longer required to be a Verica guided process and could be entirely customer managed by providing easy to use Helm charts.",
+                "Worked with design and and engineering leadership to craft a reporting framework that would allow developers to independently maintain their own applications while ensuring visual consistency"
             ],
             "url": "https://www.linkedin.com/company/vericaio/"
         },
@@ -58,7 +59,7 @@
             "startDate": "2021-04-30",
             "endDate": "2022-01-31",
             "highlights": [
-                "Developed a technical direction, business strategy, and organizational structure for the Hyperscience platform teams in partnership with directors and VP of Engineering.",
+                "Developed a technical direction, business strategy, and organizational structure for the Hyperscience platform teams in partnership with engineering directors, product management leadership, and VP of Engineering.",
                 "Founded both an agile leadership peer group and a management peer group resulting in formalized best practices as well as mentorship for newer leaders/managers as well as mentorship opportunities for more experienced leaders/managers.",
                 "Coached engineering managers as well as design managers on management practices as well as product lifecycle challenges."
             ],
@@ -72,7 +73,7 @@
             "endDate": "2021-03-31",
             "highlights": [
                 "Managed the delivery and display of customer notifications by web application, email, push notification, SMS, and Slack.",
-                "Led two 5 -10 person mixed teams of frontend/full-stack, and backend engineers",
+                "Led two 5 -10 person mixed teams of frontend/full-stack, and backend engineers working in Java and Javascript",
                 "Navigated refactoring parts of our monolithic web application into smaller modules enabling graceful degradation when ",
                 "Migrated the polling-based messaging architecture to a lambda backed, push-based messaging architecture reducing the time to high importance messages during peak usage from ~10 minutes to ~20s.",
                 "Reduced the lead time of features by 50% and increase the amount of experimentation done by the teams by redesigning team QA practices and introducing additional automated testing.",
@@ -150,24 +151,6 @@
             ],
             "url": "https://www.linkedin.com/company/fidessa/",
             "location": "New York, NY and Toronto, ON, CA"
-        },
-        {
-            "name": "Rowan University",
-            "position": "Undergraduate Research Assistant - SPPRL Lab",
-            "startDate": "2008-10-31",
-            "endDate": "2009-06-30",
-            "highlights": [],
-            "summary": "Redesigned legacy code and rewrote for optimization using object oriented design principals. I also assisted graduate students in the research and implementation of algorithms for analysis of EEG signals.",
-            "url": "https://www.linkedin.com/school/rowan-university/"
-        },
-        {
-            "name": "Radiotechniques Engineering, LLC",
-            "position": "Engineering Intern",
-            "startDate": "2006-03-31",
-            "endDate": "2009-06-30",
-            "highlights": [],
-            "summary": "I assisted senior engineers with antenna pattern design and layout in miniNEC along with maintaining the LAMP infrastructure.",
-            "url": "https://www.linkedin.com/company/radiotechniques-engineering-llc/"
         }
     ],
     "volunteer": [],
