@@ -20,7 +20,7 @@ jobs:
     - name: Install dependencies
       run: pnpm install
     - name: Run validate
-      run: pnpm run 
+      run: pnpm run validate
     - name: Build resumes
       run: pnpm run html
     - name: Archive production artifacts
