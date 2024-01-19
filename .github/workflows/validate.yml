@@ -1,26 +1,7 @@
-name: Validate And Build Resume
+name: Validate Resume.json
 on:
   push:
 jobs:
-  validate:
-    runs-on: ubuntu-20.04
-    strategy:
-      matrix:
-        node-version: [21]
-    steps:
-    - uses: actions/checkout@v3
-    - uses: pnpm/action-setup@v2
-      with:
-        version: 8
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'pnpm'
-    - name: Install dependencies
-      run: pnpm install
-    - name: Run validate
-      run: pnpm run validate
   build:
     runs-on: ubuntu-20.04
     strategy:
@@ -38,10 +19,12 @@ jobs:
         cache: 'pnpm'
     - name: Install dependencies
       run: pnpm install
+    - name: Run validate
+      run: pnpm run 
     - name: Build resumes
       run: pnpm run html
     - name: Archive production artifacts
       uses: actions/upload-artifact@v3
       with:
-        name: resumes/*/*
+        name: resumes
         path: output
