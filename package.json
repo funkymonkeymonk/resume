@@ -6,18 +6,18 @@
   "type": "module",
   "scripts": {
     "validate": "resumed validate",
-    "html:engineering": "mkdir -p output/engineering && resumed -o ./output/engineering/will-weaver-resume.html --theme jsonresume-theme-engineering",
-    "html:stackoverflow": "mkdir -p output/stackoverflow && resumed -o ./output/stackoverflow/will-weaver-resume.html --theme jsonresume-theme-stackoverflow",
-    "html:latte": "mkdir -p output/latte && resumed -o ./output/latte/will-weaver-resume.html --theme jsonresume-theme-latte",
-    "html:contempo": "mkdir -p output/contempo && resumed -o ./output/contempo/will-weaver-resume.html --theme jsonresume-theme-contempo",
-    "html": "pnpm /html:.*/",
     "clean": "rm -rf output",
-    "spell": "json-schema-spell-checker -s .spelling -f 'summary,highlights,position,keywords,name' resume.json"
+    "spell": "json-schema-spell-checker -s .spelling -f 'summary,highlights,position,keywords,name' resume.json",
+    "template:engineering": "mkdir -p output/engineering && hackmyresume build resume.json TO output/engineering/will-weaver-resume.all -t node_modules/jsonresume-theme-engineering",
+    "template:stackoverflow": "mkdir -p output/stackoverflow && hackmyresume build resume.json TO output/stackoverflow/will-weaver-resume.all -t node_modules/jsonresume-theme-stackoverflow",
+    "template:latte": "mkdir -p output/latte && hackmyresume build resume.json TO output/latte/will-weaver-resume.all -t node_modules/jsonresume-theme-latte",
+    "build": "pnpm run template:engineering"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "hackmyresume": "1.9.0-beta",
     "json-diff": "^1.0.6",
     "json-schema-spell-checker": "^2.2.0",
     "jsonresume-theme-contempo": "^0.0.3",
