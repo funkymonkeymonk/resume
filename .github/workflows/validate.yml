@@ -19,8 +19,10 @@ jobs:
         cache: 'pnpm'
     - name: Install dependencies
       run: pnpm install
-    - name: Run validate
+    - name: Validate resumejson format
       run: pnpm run validate
+    - name: Check spelling
+      run: pnpm run spell
     - name: Build resumes
       run: pnpm run html
     - name: Archive production artifacts
