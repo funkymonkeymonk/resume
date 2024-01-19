@@ -17,7 +17,9 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'pnpm'
-    - name: Install dependencies
+    - name: Install html to pdf converter
+      run: sudo apt-get install xvfb libfontconfig wkhtmltopdf
+    - name: Install node dependencies
       run: pnpm install
     - name: Validate resumejson format
       run: pnpm run validate
