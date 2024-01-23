@@ -21,6 +21,8 @@ jobs:
       run: sudo apt-get install xvfb libfontconfig wkhtmltopdf
     - name: Install node dependencies
       run: pnpm install
+    - name: Install template node dependencies
+      run: cd theme && pnpm install
     - name: Validate resumejson format
       run: pnpm run validate
     - name: Check spelling
