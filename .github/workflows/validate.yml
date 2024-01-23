@@ -1,6 +1,8 @@
 name: Validate Resume.json
 on:
   push:
+    paths:
+      - 'resume.json'
 jobs:
   validate:
     runs-on: ubuntu-20.04
