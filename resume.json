@@ -48,9 +48,9 @@
             "endDate": "2022-08-31",
             "highlights": [
                 "Managed the customer platform of five software engineers working in Go and Javascript.",
+                "Worked with design and and engineering leadership to craft a reporting framework that would allow developers to independently maintain their own applications while ensuring visual consistency",
                 "Enable independence for verification teams on the customer platform by creating self service tools for CI/CD of new verifications as well as libraries for generating customer reports.",
-                "Reduced the effort for deployment such that it was no longer required to be a Verica guided process and could be entirely customer managed by providing easy to use Helm charts.",
-                "Worked with design and and engineering leadership to craft a reporting framework that would allow developers to independently maintain their own applications while ensuring visual consistency"
+                "Reduced the effort for deployment such that it was no longer required to be a Verica guided process and could be entirely customer managed by providing easy to use Helm charts."
             ],
             "url": "https://www.linkedin.com/company/vericaio/"
         },
@@ -193,24 +193,21 @@
             "level": "",
             "keywords": [
                 "Agile Coaching",
-                "Coaching",
                 "Lean",
                 "Organizational Design",
                 "Agile Methodologies",
-                "Agile Coaching"
+                "Value Stream Mapping"
             ]
         },
         {
-            "name": "Platform",
+            "name": "Software Development/Delivery",
             "level": "",
             "keywords": [
-                "DevOps",
+                "Internal Tool Design",
                 "Amazon Web Services (AWS)",
                 "Containerization/Docker",
                 "Continuous Integration and Continuous Delivery (CI/CD)",
-                "Continuous Deployment",
-                "Kubernetes",
-                "AWS Lambda"
+                "Continuous Deployment"
             ]
         },
         {
