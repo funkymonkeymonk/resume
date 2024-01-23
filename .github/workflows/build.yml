@@ -1,6 +1,8 @@
-name: Validate Resume.json
+name: Build main resume
 on:
   push:
+    branches:
+      - 'main'
 jobs:
   build:
     runs-on: ubuntu-20.04
@@ -17,9 +19,16 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'pnpm'
+    - name: Install html to pdf converter
+      run: sudo apt-get install xvfb libfontconfig wkhtmltopdf
     - name: Install node dependencies
       run: pnpm install
-    - name: Validate resumejson format
-      run: pnpm run validate
-    - name: Check spelling
-      run: pnpm run spell
+    - name: Install template node dependencies
+      run: cd theme && pnpm install
+    - name: Build resumes
+      run: pnpm run build
+    - name: Archive production artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: resumes
+        path: output

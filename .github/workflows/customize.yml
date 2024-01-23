@@ -1,0 +1,34 @@
+name: Customize Resume
+on:
+  pull_request:
+    branches:
+      - 'custom-**'
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    strategy:
+      matrix:
+        node-version: [21]
+    steps:
+    - uses: actions/checkout@v3
+    - uses: pnpm/action-setup@v2
+      with:
+        version: 8
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'pnpm'
+    - name: Install html to pdf converter
+      run: sudo apt-get install xvfb libfontconfig wkhtmltopdf
+    - name: Install node dependencies
+      run: pnpm install
+    - name: Install template node dependencies
+      run: cd theme && pnpm install
+    - name: Build resumes
+      run: pnpm run build
+    - name: Archive production artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: resumes
+        path: output
