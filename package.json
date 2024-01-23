@@ -8,10 +8,7 @@
     "validate": "resumed validate",
     "clean": "rm -rf output",
     "spell": "json-schema-spell-checker -s .spelling -f 'summary,highlights,position,keywords,name' resume.json",
-    "template:engineering": "mkdir -p output/engineering && hackmyresume build resume.json TO output/engineering/will-weaver-resume.all -t node_modules/jsonresume-theme-engineering",
-    "template:stackoverflow": "mkdir -p output/stackoverflow && hackmyresume build resume.json TO output/stackoverflow/will-weaver-resume.all -t node_modules/jsonresume-theme-stackoverflow",
-    "template:latte": "mkdir -p output/latte && hackmyresume build resume.json TO output/latte/will-weaver-resume.all -t node_modules/jsonresume-theme-latte",
-    "build": "pnpm run template:engineering"
+    "build": "mkdir -p output && hackmyresume build resume.json TO output/will-weaver-resume.all --theme ./theme/"
   },
   "keywords": [],
   "author": "",
