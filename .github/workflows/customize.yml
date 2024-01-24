@@ -33,12 +33,9 @@ jobs:
       with:
         name: will-weaver-resume.pdf
         path: output/will-weaver-resume.pdf
-    - name: Add link to pdf archive in comment
+    - name: Add link to outputs in PR
       uses: mshick/add-pr-comment@v2
       with:
-        message: 'Zip of pdf can be found at ${{ steps.artifact-upload-step.outputs.artifact-url }}'
-    - name: HTML Preview
-      id: html_preview
-      uses: pavi2410/html-preview-action@v2
-      with:
-        html_file: '/output/will-weaver-resume.html'
+        message: |
+          Build Results: [PDF](${{ steps.pdf-upload-step.outputs.artifact-url }})
+      
