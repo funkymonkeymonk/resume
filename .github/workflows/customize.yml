@@ -33,13 +33,8 @@ jobs:
       with:
         name: will-weaver-resume.pdf
         path: output/will-weaver-resume.pdf
-    - name: HTML Preview
-      id: html_preview
-      uses: pavi2410/html-preview-action@v2
-      with:
-        html_file: '/output/will-weaver-resume.html'
     - name: Add link to outputs in PR
       uses: mshick/add-pr-comment@v2
       with:
         message: |
-          Build Results: [HTML Preview](${{ steps.html_preview.outputs.url }}) [PDF](${{ steps.pdf-upload-step.outputs.artifact-url }})
+          Build Results: [PDF](${{ steps.pdf-upload-step.outputs.artifact-url }})
