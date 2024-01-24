@@ -2,7 +2,7 @@ name: Customize Resume
 on:
   push:
     branches:
-      - 'pr-workflow-testing'
+      - 'custom-**'
 jobs:
   build:
     runs-on: ubuntu-20.04
