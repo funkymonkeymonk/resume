@@ -2,7 +2,7 @@
 name: New Role
 about: Use this to add a new role for consideration
 title: 'Title @ Company '
-labels: job
+labels: role
 assignees: funkymonkeymonk
 
 ---

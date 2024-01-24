@@ -6,7 +6,7 @@ gitSafeReplacementChar: "-"
 autoLinkIssue: true
 autoCloseIssue: true
 branches:
-- label: "type: job"
+- label: "role"
   prefix: custom-
 - label: "*"
   skip: true
