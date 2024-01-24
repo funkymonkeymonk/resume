@@ -154,7 +154,6 @@
             "location": "New York, NY and Toronto, ON, CA"
         }
     ],
-    "volunteer": [],
     "education": [
         {
             "institution": "Rowan University",
@@ -164,8 +163,6 @@
             "endDate": "2011-12-31"
         }
     ],
-    "awards": [],
-    "certificates": [],
     "publications": [
         {
             "name": "Alexa, Google Assistant, And A Write Once Framework",
@@ -223,9 +220,6 @@
             ]
         }
     ],
-    "interests": [],
-    "references": [],
-    "projects": [],
     "meta": {
         "version": "v1.0.0",
         "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
