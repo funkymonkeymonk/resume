@@ -33,7 +33,6 @@ jobs:
       with:
         name: will-weaver-resume.pdf
         path: output/will-weaver-resume.pdf
-    - name: Output pdf url in PR
     - name: Add link to pdf archive in comment
       uses: mshick/add-pr-comment@v2
       with:
