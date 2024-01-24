@@ -38,7 +38,4 @@ jobs:
       with:
         message: |
           Build Results: [PDF](${{ steps.pdf-upload-step.outputs.artifact-url }})
-    - name: Add link to outputs in action job summary
-      run: |
-        echo "Build Results: [PDF](${{ steps.pdf-upload-step.outputs.artifact-url }})" >> $GITHUB_STEP_SUMMARY
       
