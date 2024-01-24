@@ -2,7 +2,7 @@ name: Customize Resume
 on:
   push:
     branches:
-      - 'pr-workflow-testing'
+      - 'custom-**'
 jobs:
   build:
     runs-on: ubuntu-20.04
@@ -33,7 +33,6 @@ jobs:
       with:
         name: will-weaver-resume.pdf
         path: output/will-weaver-resume.pdf
-    - name: Output pdf url in PR
     - name: Add link to pdf archive in comment
       uses: mshick/add-pr-comment@v2
       with:
