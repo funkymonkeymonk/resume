@@ -1,6 +1,6 @@
 name: Customize Resume
 on:
-  pull_request:
+  push:
     branches:
       - 'custom-**'
 jobs:
