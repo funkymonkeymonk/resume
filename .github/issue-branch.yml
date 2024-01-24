@@ -1,0 +1,15 @@
+# https://github.com/robvanderleek/create-issue-branch#option-2-configure-github-action
+mode: immediate
+silent: false
+branchName: "custom-${issue.title,}"
+gitSafeReplacementChar: "-"
+autoLinkIssue: true
+autoCloseIssue: true
+branches:
+- label: "type: job"
+  prefix: custom-
+- label: "*"
+  skip: true
+openDraftPR: true
+copyIssueDescriptionToPR: true
+copyIssueLabelsToPR: true
