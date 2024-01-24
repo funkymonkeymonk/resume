@@ -10,6 +10,6 @@ branches:
   prefix: custom-
 - label: "*"
   skip: true
-openDraftPR: true
+openPR: true
 copyIssueDescriptionToPR: true
 copyIssueLabelsToPR: true
