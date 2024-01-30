@@ -1,4 +1,4 @@
-name: Customize Resume
+name: Generate Suggestions
 on:
   push:
     branches:
@@ -18,9 +18,9 @@ jobs:
           cat ./resume.json >> $GITHUB_ENV
           echo 'EOF' >> $GITHUB_ENV
       - run: |
-          echo "jq .basics.summary ${{env.RESUME_JSON}}"
+          echo "${{toJSON(fromJson(env.RESUME_JSON).basics.summary)}}"
       - run: 
-          echo "jq .skills ${{env.RESUME_JSON}}"
+          echo "${{toJSON(fromJson(env.RESUME_JSON).skills)}}"
       # - name: Get ChatGPT completion
       #   id: chatgpt
       #   uses: cahaseler/openai-chatgpt-action@v1
