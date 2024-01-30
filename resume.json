@@ -191,12 +191,11 @@
             "name": "Management/Coaching",
             "level": "",
             "keywords": [
-                "Agile Coaching",
                 "Coaching",
-                "Lean",
+                "Strategic Planning",
+                "Cross-functional Collaboration",
                 "Organizational Design",
-                "Agile Methodologies",
-                "Agile Coaching"
+                "Agile Methodologies"
             ]
         },
         {
@@ -208,6 +207,7 @@
                 "Containerization/Docker",
                 "Continuous Integration and Continuous Delivery (CI/CD)",
                 "Continuous Deployment",
+                "API Design",
                 "Kubernetes",
                 "AWS Lambda"
             ]
