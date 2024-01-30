@@ -11,6 +11,7 @@ jobs:
       matrix:
         node-version: [21]
     steps:
+      - uses: actions/checkout@v4
       - id: read_resume
         run: |
           echo 'RESUME_JSON<<EOF' >> $GITHUB_ENV
