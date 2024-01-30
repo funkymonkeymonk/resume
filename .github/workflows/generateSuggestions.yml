@@ -18,9 +18,9 @@ jobs:
           cat ./resume.json >> $GITHUB_ENV
           echo 'EOF' >> $GITHUB_ENV
       - run: |
-          echo "jq .basics.summary ${{fromJson(env.RESUME_JSON)}}"
+          echo "jq .basics.summary ${{env.RESUME_JSON}}"
       - run: 
-          echo "jq .skills ${{fromJson(env.RESUME_JSON)}}"
+          echo "jq .skills ${{env.RESUME_JSON}}"
       # - name: Get ChatGPT completion
       #   id: chatgpt
       #   uses: cahaseler/openai-chatgpt-action@v1
