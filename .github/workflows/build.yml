@@ -35,7 +35,7 @@ jobs:
     - name: Create release
       uses: softprops/action-gh-release@v1
       with:
-        tag_name: ${{ github.sha }}
+        tag_name: latest
         files: |
           output/will-weaver-resume.html
           output/will-weaver-resume.pdf
