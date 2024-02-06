@@ -32,3 +32,10 @@ jobs:
       with:
         name: resumes
         path: output/*
+    - name: Create release
+      uses: softprops/action-gh-release@v1
+      with:
+        files: |
+          output/will-weaver-resume.html
+          output/will-weaver-resume.pdf
+          output/will-weaver-resume.png
