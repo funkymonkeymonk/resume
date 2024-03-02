@@ -5,7 +5,7 @@
         "label": "Engineering Leader | Obsessed with Efficiency and Developer Experience | Board Game Sommelier",
         "email": "williamdweaver@gmail.com",
         "url": "https://willweaver.dev",
-        "summary": "Experienced cross-functional manager with a demonstrated history of working with companies of various sizes. Skilled at building resilient applications and cultures by leveraging agile, lean, and devops practices. Passionate about creating mentoring groups to encourage continual growth and guidance. Platform engineer with extensive experience coordinating with product, engineering, and design leadership to shape developer experience. Avid board game player.",
+        "summary": "Experienced cross-functional manager with a demonstrated history of building and maintaining high availability and high throughput systems. Skilled at building resilient applications and cultures by leveraging agile, lean, and devops practices. Passionate about creating mentoring groups to encourage continual growth and guidance. Platform/Infrastructure engineer with extensive experience coordinating with product, engineering, and design leadership to shape developer experience. Avid board game player.",
         "location": {
             "city": "New York",
             "region": "NY",
@@ -48,7 +48,7 @@
             "highlights": [
                 "Managed the customer platform of five software engineers working in Go and Javascript.",
                 "Enable independence for verification teams on the customer platform by creating self service tools for CI/CD of new verifications as well as libraries for generating customer reports.",
-                "Reduced the effort for deployment such that it was no longer required to be a Verica guided process and could be entirely customer managed by providing easy to use Helm charts.",
+                "Reduced the effort for kubernetes cluster and application deployment using helm charts such that onboarding a new customer no longer required Verica guidance.",
                 "Worked with design and and engineering leadership to craft a reporting framework that would allow developers to independently maintain their own applications while ensuring visual consistency"
             ],
             "url": "https://www.linkedin.com/company/vericaio/"
@@ -59,6 +59,7 @@
             "startDate": "2021-04-30",
             "endDate": "2022-01-31",
             "highlights": [
+                "Worked with a team of five engineers to maintain and extend the feature set for a custom version of Netflix Conductor written in Java with a Python/Django frontend.",
                 "Developed a technical direction, business strategy, and organizational structure for the Hyperscience platform teams in partnership with engineering directors, product management leadership, and VP of Engineering.",
                 "Founded both an agile leadership peer group and a management peer group resulting in formalized best practices as well as mentorship for newer leaders/managers as well as mentorship opportunities for more experienced leaders/managers.",
                 "Coached engineering managers as well as design managers on management practices as well as product lifecycle challenges."
@@ -74,7 +75,7 @@
             "highlights": [
                 "Managed the delivery and display of customer notifications by web application, email, push notification, SMS, and Slack.",
                 "Led two 5 -10 person mixed teams of frontend/full-stack, and backend engineers working in Java and Javascript",
-                "Navigated refactoring parts of our monolithic web application into smaller modules enabling graceful degradation when ",
+                "Navigated refactoring parts of our monolithic web application into smaller modules enabling graceful degradation when there were issues.",
                 "Migrated the polling-based messaging architecture to a lambda backed, push-based messaging architecture reducing the time to high importance messages during peak usage from ~10 minutes to ~20s.",
                 "Reduced the lead time of features by 50% and increase the amount of experimentation done by the teams by redesigning team QA practices and introducing additional automated testing.",
                 "Founded an agile leadership peer mentoring group to provide peer-to-peer mentoring, communication, and guidance on modern agile philosophy and practices."
@@ -206,21 +207,20 @@
                 "Amazon Web Services (AWS)",
                 "Containerization/Docker",
                 "Continuous Integration and Continuous Delivery (CI/CD)",
-                "Continuous Deployment",
-                "Kubernetes",
-                "AWS Lambda"
+                "Job/Workflow Orchestraion",
+                "Kubernetes"
             ]
         },
         {
             "name": "Technical Leadership",
             "level": "",
             "keywords": [
-                "Technical Direction",
+                "Technical Roadmap Development",
+                "Strategic Planning",
                 "Code Refactoring",
                 "Distributed Systems",
                 "Microservices",
-                "Test Driven Development",
-                "Developer Experience"
+                "Test Driven Development"
             ]
         }
     ],
